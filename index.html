@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website</title>
+  <!-- CSS only -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous"
+  />
+  <script src="PopUp.js"></script>
+  <!-- JavaScript Bundle with Popper -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"
+  ></script>
+  <body>
+    <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Raleway:wght@700&display=swap"
+        rel="stylesheet"
+      />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Raleway:ital,wght@1,700&display=swap"
+        rel="stylesheet"
+      />
+      <section>
+        <nav>
+          <ul class="Login">
+            <li>Login</li>
+            <li>Help</li>
+            <li>FAQ</li>
+          </ul>
+        </nav>
+      </section>
+      <h1>Website</h1>
+      <link rel="stylesheet" href="CSS Main Page.css" />
+      <form id="form">
+        <input type="search" id="query" name="q" placeholder="Search Here" />
+        <button>Search</button>
+      </form>
+      <hr />
+    </head>
+
+    <main>
+      <nav class="form">
+        <ul>
+          <li>Men</li>
+          <li>Women</li>
+          <li>Kids</li>
+          <li>Sale</li>
+        </ul>
+      </nav>
+
+      <div class="contain">
+        <img
+          src="Website Image.jpg"
+          alt="Picture of models in a field"
+          width="1570"
+          height="950"
+        />
+
+        <a href="HTML File 2.html" target="_blank"
+          ><button type="button" class="button">
+            Click To View Our Best Seller
+          </button></a
+        >
+      </div>
+
+      <div>
+        <p class="SpringSummer">Spring Summer 21/22 Collection Out Now</p>
+      </div>
+    </main>
+    <hr />
+
+    <footer>
+      <nav>
+        <ul class="Delivery">
+          <li>Delivery</li>
+          <li>Exchanges/Returns</li>
+          <li>Other</li>
+          <li>
+            <button class="Surprise" onclick="revealMessage()">
+              Click For A Surprise
+            </button>
+            <p id="hiddenMessage" style="display: none">
+              You've got 10% off! Use Code WELCOME
+            </p>
+          </li>
+        </ul>
+
+        <ul class="Contact">
+          <li>About Us</li>
+          <li>Contact Us</li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

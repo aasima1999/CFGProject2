@@ -1,0 +1,149 @@
+head {
+  background-color: black;
+}
+main {
+  background-color: black;
+}
+
+h1 {
+  font-family: "Inconsolata", monospace;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  margin-left: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+footer {
+  background-color: black;
+}
+
+nav ul li {
+  display: inline;
+  color: white;
+}
+
+.Login {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Inconsolata", monospace;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  list-style: none;
+  font-size: small;
+}
+
+.Login li:nth-child(1) {
+  margin-right: 10px;
+}
+
+.Login li:nth-child(2) {
+  margin-right: 10px;
+}
+
+.Login li:nth-child(3) {
+  margin-right: 5px;
+}
+
+#form {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Inconsolata", monospace;
+  font-family: "Raleway", sans-serif;
+  margin-right: 10px;
+  font-size: small;
+}
+
+.form {
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+.SpringSummer {
+  position: absolute;
+  bottom: 130px;
+  left: 100px;
+  font-family: "Inconsolata", monospace;
+  font-family: "Raleway", sans-serif;
+  font-style: italic;
+  color: white;
+  padding-inline: 20px;
+}
+.form li:nth-child(1) {
+  margin-right: 50px;
+}
+
+.form li:nth-child(2) {
+  margin-right: 50px;
+}
+
+.form li:nth-child(3) {
+  margin-right: 50px;
+}
+
+.form li:nth-child(4) {
+  margin-right: 50px;
+  color: red;
+}
+.form ul li {
+  display: inline;
+}
+
+.contain {
+  display: inline-block;
+  position: relative;
+}
+
+.contain button {
+  position: absolute;
+  bottom: 80px;
+  right: 600px;
+  color: white;
+  background-color: black;
+  padding: 1em 1.5em;
+  border-style: solid;
+  border-radius: 12px;
+  font-family: "Inconsolata", monospace;
+  font-family: "Raleway", sans-serif;
+  text-decoration: underline;
+}
+
+.contain button:hover {
+  background-color: red;
+}
+
+footer {
+  display: inline;
+}
+.Contact {
+  display: flex;
+  justify-content: flex-end;
+  font-size: smaller;
+}
+.Delivery {
+  position: relative;
+  top: 40px;
+  right: 10px;
+  font-size: smaller;
+}
+.Delivery li:nth-child(2) {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.Delivery li:nth-child(1) {
+  margin-right: 15px;
+}
+.Contact li:nth-child(2) {
+  margin-left: 10px;
+}
+
+.Surprise {
+  font-family: "Inconsolata", monospace;
+  font-family: "Raleway", sans-serif;
+  margin-left: 5px;
+}

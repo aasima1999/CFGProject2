@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section h1 {
+  font-family: "Inconsolata", monospace;
+  font-family: "Raleway", sans-serif;
+  color: white;
+  margin-left: 20px;
+}
+
+.Login {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Inconsolata", monospace;
+  font-family: "Raleway", sans-serif;
+  list-style: none;
+  font-size: smaller;
+  color: white;
+}
+
+.Login li:nth-child(1) {
+  margin-right: 10px;
+}
+
+.Login li:nth-child(2) {
+  margin-right: 10px;
+}
+
+.Login li:nth-child(3) {
+  margin-right: 5px;
+}
+
+#form {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Inconsolata", monospace;
+  font-family: "Raleway", sans-serif;
+  margin-right: 10px;
+  font-size: small;
+  margin-top: 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-family: "Inconsolata", monospace;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+.carousel {
+  width: 380px;
+  height: 400px;
+  position: relative;
+  left: 580px;
+  top: 20px;
+}
+
+.Description {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  bottom: 350px;
+  right: 230px;
+  font-family: "Inconsolata", monospace;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+.Points {
+  position: relative;
+  left: 1002px;
+  bottom: 300px;
+  list-style: none;
+  font-family: "Raleway", sans-serif;
+  font-size: small;
+  color: white;
+}
+
+.price {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  right: 445px;
+  bottom: 250px;
+  font-family: "Inconsolata", monospace;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+.dropdown .dropdown-menu {
+  background-color: white;
+  font-family: "Inconsolata", monospace;
+  font-family: "Raleway", sans-serif;
+  font-size: smaller;
+  color: black;
+}
+.dropdown .dropdown-toggle {
+  background-color: black;
+  font-family: "Inconsolata", monospace;
+  font-family: "Raleway", sans-serif;
+  font-size: small;
+}
+.dropdown {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  right: 380px;
+  bottom: 250px;
+}
+.Content {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  right: 375px;
+  bottom: 200px;
+  font-family: "Inconsolata", monospace;
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+.Contact {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  position: relative;
+  top: 15px;
+  font-size: smaller;
+  color: white;
+}
+
+.Contact li:nth-child(1) {
+  margin-right: 10px;
+}
+.Delivery {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 50px;
+  list-style: none;
+  font-size: smaller;
+  color: white;
+}
+
+.Delivery li:nth-child(1) {
+  margin-right: 20px;
+}
+
+.Delivery li:nth-child(2) {
+  margin-right: 15px;
+}
+
+.form li:nth-child(1) {
+  margin-right: 50px;
+}
+
+.form li:nth-child(2) {
+  margin-right: 50px;
+}
+
+.form li:nth-child(3) {
+  margin-right: 50px;
+}
+
+.form li:nth-child(4) {
+  margin-right: 50px;
+  color: red;
+}
+.whole {
+  background-color: black;
+}
+.whole2 {
+  background-color: black;
+}
+.Home {
+  position: relative;
+  left: 30px;
+  color: white;
+  font-family: "Inconsolata", monospace;
+  font-family: "Raleway", sans-serif;
+  font-size: small;
+  top: 30px;
+}
